@@ -1,7 +1,8 @@
 import sublime
 import sublime_plugin
-from Statement import statement
 import re
+
+from Statement import statement
 from Expression import expression
 
 def _get_parts(view, point):

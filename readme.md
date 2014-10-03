@@ -50,3 +50,9 @@ package.
 |-------------------|-------------------|------------------------|
 | Join assignment   | ctrl+w            | JoinAssignment: join   |
 | Unjoin assignment | ctrl+shift+w      | JoinAssignment: unjoin |
+
+
+### Dependencies
+
+- https://github.com/shagabutdinov/sublime-statement
+- https://github.com/shagabutdinov/sublime-expression
