@@ -1,0 +1,11 @@
+[
+  {
+    "caption": "JoinAssignment: join",
+    "command": "join_assignment",
+  },
+
+  {
+    "caption": "JoinAssignment: unjoin",
+    "command": "unjoin_assignment",
+  }
+]
