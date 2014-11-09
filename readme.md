@@ -6,7 +6,7 @@ operation that requires a lot of keyhits when doing it manually.
 
 ### Demo
 
-![Demo](https://raw.github.com/shagabutdinov/sublime-join-assignment/master/demo/demo.gif "Demo")
+![Demo](https://github.com/shagabutdinov/sublime-enhanced-demos/raw/master/join_assignment.gif "Demo")
 
 
 ### Installation
@@ -54,5 +54,5 @@ package.
 
 ### Dependencies
 
-- https://github.com/shagabutdinov/sublime-statement
-- https://github.com/shagabutdinov/sublime-expression
+* [Statement](https://github.com/shagabutdinov/sublime-statement)
+* [Expression](https://github.com/shagabutdinov/sublime-expression)

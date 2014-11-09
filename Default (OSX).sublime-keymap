@@ -3,6 +3,7 @@
     "keys": ["ctrl+w"],
     "command": "join_assignment",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true}
     ],
   },
@@ -11,6 +12,7 @@
     "keys": ["ctrl+shift+w"],
     "command": "unjoin_assignment",
     "context": [
+      {"key": "setting.sublime_enhanced_keybindings", "operator": "equal", "operand": true},
       {"key": "selection_empty", "operator": "equal", "operand": true, "match_all": true}
     ],
   }
