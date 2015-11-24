@@ -5,12 +5,11 @@ import re
 try:
   from Statement import statement
   from Expression import expression
-except ImportError:
+except ImportError as error:
   sublime.error_message("Dependency import failed; please read readme for " +
    "JoinAssignment plugin for installation instructions; to disable this " +
-   "message remove this plugin")
-
-
+   "message remove this plugin; message: " + str(error))
+  raise error
 
 def _get_parts(view, point):
   container = statement.get_root_statement(view, point)
